@@ -9,7 +9,8 @@ namespace DataStructuresAndAlgorithms
         static void Main(string[] args)
         {
             //Recursion.Run();
-            SearchingAlgorithms.Run();
+            //SearchingAlgorithms.Run();
+            SortingAlgorithms.Run();
 
         }
     }
