@@ -8,7 +8,7 @@ namespace DataStructures
     {
         public static void Run()
         {
-            var numbers = new int[] { 3,5,8,2,6,9};
+            var numbers = new int[] { 3,5,8,9,6,2 };
             Console.WriteLine(string.Join(",", numbers));
 
             //var result = SelectionSort(numbers);
@@ -134,9 +134,9 @@ namespace DataStructures
         {
             var i = left;
             var j = mid +1;
-            var k = right;
-            var B = new int[arr.Length];
-            while (i<=mid && j<=right)
+            var k = left;
+            int[] B = new int[right+1];
+            while (i <= mid && j <= right)
             {
                 if (arr[i]<arr[j])
                 {
