@@ -23,8 +23,11 @@ namespace DataStructures
             // var result = ShellSort(numbers);
             //Console.WriteLine(string.Join(",", result));
 
-            var result = MergeSort(numbers,0,numbers.Length-1);
-            Console.WriteLine(string.Join(",", result));
+            //var result = MergeSort(numbers, 0, numbers.Length - 1);
+            //Console.WriteLine(string.Join(",", result));
+
+            QuickSort(numbers, 0, numbers.Length-1);
+            Console.WriteLine(string.Join(",", numbers));
         }
 
         #region Unstable Sorting
@@ -162,13 +165,46 @@ namespace DataStructures
                 j += 1;
                 k += 1;
             }
+            for (int x = left; x < right + 1; x++)
+                arr[x] = B[x];
+        }
 
-            for (int p = 0; p < B.Length; p++)
+
+        private static void QuickSort(int[] A, int low, int high)
+        {
+            if (low < high)
             {
-                arr[p] = B[p];
+                int pi = partition(A, low, high);
+                QuickSort(A, low, pi - 1);
+                QuickSort(A, pi + 1, high);
             }
         }
 
+        private static int partition(int[] A, int low, int high)
+        {
+            int pivot = A[low];
+            int i = low + 1;
+            int j = high;
+            do
+            {
+                while (i <= j && A[i] <= pivot)
+                    i = i + 1;
+                while (i <= j && A[j] > pivot)
+                    j = j - 1;
+                if (i <= j)
+                    swap(A, i, j);
+
+            } while (i < j);
+            swap(A, low, j);
+            return j;
+        }
+
+        private static void swap(int[] A, int i, int j)
+        {
+            int temp = A[i];
+            A[i] = A[j];
+            A[j] = temp;
+        }
 
         #endregion
 
