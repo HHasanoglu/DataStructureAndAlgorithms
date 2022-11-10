@@ -26,6 +26,7 @@ namespace DataStructures
             //var result = MergeSort(numbers, 0, numbers.Length - 1);
             //Console.WriteLine(string.Join(",", result));
 
+
             QuickSort(numbers, 0, numbers.Length-1);
             Console.WriteLine(string.Join(",", numbers));
         }
