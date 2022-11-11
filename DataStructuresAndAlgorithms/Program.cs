@@ -10,7 +10,8 @@ namespace DataStructuresAndAlgorithms
         {
             //Recursion.Run();
             //SearchingAlgorithms.Run();
-            SortingAlgorithms.Run();
+            //SortingAlgorithms.Run();
+            LinkedListH.Run();
 
         }
     }
