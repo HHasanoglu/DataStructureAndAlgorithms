@@ -17,6 +17,13 @@ namespace DataStructures
             list.Add(4);
             list.Display();
             Console.WriteLine(list.Length);
+            Console.WriteLine();
+            list.AddFirst(25);
+            list.Display();
+            Console.WriteLine(list.Length);
+            list.AddAny(32, 3);
+            list.Display();
+            Console.WriteLine(list.Length);
         }
 
 
@@ -56,6 +63,39 @@ namespace DataStructures
 
             _length += 1;
         }
+
+        public void AddFirst(int e) 
+        {
+            var newest = new Node(e, null);
+            if (IsEmpty)
+            {
+                _Head = newest;
+                _tail = newest;
+            }
+            else 
+            {
+                newest.Next = _Head;
+                _Head = newest;
+            }
+            _length += 1;
+        }
+
+        public void AddAny(int e, int Position)
+        {
+            var newNode = new Node(e, null);
+
+            var i = 1;
+            var p = _Head;
+            while (i<Position-1)
+            {
+                p = p.Next;
+                i += 1;
+            }
+            newNode.Next = p.Next;
+            p.Next = newNode;
+            _length += 1;
+        }
+
 
         public void Display() 
         {
