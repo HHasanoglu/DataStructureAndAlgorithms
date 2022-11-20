@@ -12,7 +12,8 @@ namespace DataStructuresAndAlgorithms
             //SearchingAlgorithms.Run();
             //SortingAlgorithms.Run();
             //LinkedListH.Run();
-            CircularLinkList.Run();
+            //CircularLinkList.Run();
+            DoublyLinkedList.Run();
 
         }
     }
