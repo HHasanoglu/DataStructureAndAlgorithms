@@ -13,7 +13,8 @@ namespace DataStructuresAndAlgorithms
             //SortingAlgorithms.Run();
             //LinkedListH.Run();
             //CircularLinkList.Run();
-            DoublyLinkedList.Run();
+            //DoublyLinkedList.Run();
+            StacksArray.Run();
 
         }
     }
