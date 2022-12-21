@@ -14,7 +14,8 @@ namespace DataStructuresAndAlgorithms
             //LinkedListH.Run();
             //CircularLinkList.Run();
             //DoublyLinkedList.Run();
-            StacksArray.Run();
+            //StacksArray.Run();
+            StackLinkList.Run();
 
         }
     }
