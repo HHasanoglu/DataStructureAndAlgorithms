@@ -46,19 +46,23 @@ namespace DataStructures
             stackLink.Display();
             stackLink.Pop();
             stackLink.Display();
-            //Console.WriteLine(list.Peek());
-            //stackLink.Pop();
-            //stackLink.Display();
-            //stackLink.Pop();
-            //stackLink.Display();
-            //stackLink.Pop();
-            //stackLink.Display();
-            //stackLink.Pop();
-            //stackLink.Display();
-            //stackLink.Pop();
-            //stackLink.Push(7);
-            //stackLink.Push(8);
-            //stackLink.Display();
+            Console.WriteLine(stackLink.peek());
+            stackLink.Pop();
+            stackLink.Display();
+            stackLink.Pop();
+            stackLink.Display();
+            stackLink.Pop();
+            stackLink.Display();
+            stackLink.Pop();
+            stackLink.Display();
+            stackLink.Pop();
+            stackLink.Push(7);
+            stackLink.Push(8);
+            stackLink.Display();
+
+
+
+
 
 
 
