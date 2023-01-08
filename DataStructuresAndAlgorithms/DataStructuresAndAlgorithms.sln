@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresAndAlgorithms", "DataStructuresAndAlgorithms.csproj", "{5CEF8596-E590-494A-A04F-AE37613A903F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructuresAndAlgorithms", "DataStructuresAndAlgorithms.csproj", "{5CEF8596-E590-494A-A04F-AE37613A903F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "..\DataStructures\DataStructures.csproj", "{054089EB-F996-467B-A96D-09AEEDBCB3CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "..\DataStructures\DataStructures.csproj", "{054089EB-F996-467B-A96D-09AEEDBCB3CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

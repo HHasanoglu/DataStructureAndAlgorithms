@@ -57,15 +57,6 @@ namespace DataStructures
             list.Push(7);
             list.Push(8);
             list.Display();
-
-
-
-
-
-
-
-
-
         }
 
         public void Push(int element) 
