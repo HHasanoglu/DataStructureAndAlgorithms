@@ -46,6 +46,9 @@ namespace DataStructures
             list.Deque();
             list.Display();
             Console.WriteLine(list.Length);
+
+
+
         }
 
         public void Enque(int element)
@@ -55,7 +58,7 @@ namespace DataStructures
                 Console.WriteLine("Queue is Full");
                 return;
             }
-            _data[_front] = element;
+            _data[_rear] = element;
             _rear++;
             _size++;
         }
