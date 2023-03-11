@@ -14,7 +14,7 @@ namespace DataStructures
             list.Add(1);
             list.Add(2);
             list.Add(4);
-            //list.Display();
+            list.Display();
             //Console.WriteLine(list.Length);
             //Console.WriteLine();
             //list.AddFirst(25);
@@ -73,7 +73,7 @@ namespace DataStructures
             }
             else
             {
-                _tail.Next = newest;
+                _Head.Next = newest;
             }
 
             _tail = newest;

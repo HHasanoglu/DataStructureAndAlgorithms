@@ -6,7 +6,8 @@ namespace DataStructures
 {
     public class Node
     {
-        public Node(int element, Node next)
+      
+        public Node(int element, Node next=null)
         {
             Element = element;
             Next = next;

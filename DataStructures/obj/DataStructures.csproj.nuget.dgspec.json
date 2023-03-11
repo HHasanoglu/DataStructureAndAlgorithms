@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj": {}
+    "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj": {}
   },
   "projects": {
-    "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj": {
+    "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj",
+        "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj",
         "projectName": "DataStructures",
-        "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj",
+        "projectPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj",
         "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-        "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\obj\\",
+        "outputPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"

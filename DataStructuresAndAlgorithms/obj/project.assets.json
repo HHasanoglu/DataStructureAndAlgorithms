@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj",
+      "projectUniqueName": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj",
       "projectName": "DataStructuresAndAlgorithms",
-      "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj",
+      "projectPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj",
       "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-      "outputPath": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructuresAndAlgorithms\\obj\\",
+      "outputPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructuresAndAlgorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -61,8 +61,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj": {
-              "projectPath": "D:\\Hamid1\\Hassanzada\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj"
+            "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj": {
+              "projectPath": "D:\\Hamid1\\Hassanzada\\Personal\\Projects\\DataStructureAndAlgorithms\\DataStructures\\DataStructures.csproj"
             }
           }
         }
