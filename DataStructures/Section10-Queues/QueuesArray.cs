@@ -46,9 +46,6 @@ namespace DataStructures
             list.Deque();
             list.Display();
             Console.WriteLine(list.Length);
-
-
-
         }
 
         public void Enque(int element)

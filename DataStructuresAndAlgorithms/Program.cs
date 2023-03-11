@@ -17,7 +17,8 @@ namespace DataStructuresAndAlgorithms
             //StacksArray.Run();
             //StackLinkList.Run();
             //QueuesArray.Run();
-            QueuesLinkedList.Run();
+            //QueuesLinkedList.Run();
+            BinarySearchTree.Run();
 
         }
     }
