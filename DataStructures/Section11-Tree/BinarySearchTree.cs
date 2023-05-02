@@ -36,6 +36,9 @@ namespace DataStructures
             binarySearch.Serach(6);
             var value=binarySearch.SerachRecursive(binarySearch.Root,6);
 
+
+
+
         }
 
         public void Insert(int value) 
@@ -149,6 +152,10 @@ namespace DataStructures
             }
         }
         #endregion
+
+
+
+
 
     }
 }
